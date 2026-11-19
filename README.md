@@ -16,7 +16,7 @@ This is a starting point, not an exhaustive database. Game mechanics can change 
 
 ## Run locally
 
-Open `index.html` in a modern browser. The site uses plain HTML, CSS, and JavaScript and does not require a build step or backend. An internet connection is required for externally hosted images and links.
+Open `index.html` in a modern browser. The site uses plain HTML, CSS, and JavaScript and does not require a build step or backend. An internet connection is required for external fonts and links.
 
 ## Publish
 
@@ -27,6 +27,7 @@ The site is designed for GitHub Pages at the repository path `/melvoridle2wiki/`
 - `index.html` contains the site content and structure.
 - `styles.css` contains the responsive visual design.
 - `app.js` handles interactive navigation and search.
+- `images/hero.jpg` is a locally served game screenshot from the official Steam listing.
 
 ## Sources and attribution
 
