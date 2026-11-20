@@ -214,6 +214,14 @@ await cp(resolve(root, "public/assets"), resolve(output, "assets"), {
   recursive: true,
 });
 await cp(
+  resolve(root, "public/google45b8e9bedfbc396b.html"),
+  resolve(output, "google45b8e9bedfbc396b.html"),
+);
+await cp(
+  resolve(root, "public/BingSiteAuth.xml"),
+  resolve(output, "BingSiteAuth.xml"),
+);
+await cp(
   resolve(root, "src/styles/style.css"),
   resolve(output, "assets/style.css"),
 );
