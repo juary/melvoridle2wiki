@@ -1,0 +1,604 @@
+{
+  "categories": [
+    {
+      "id": "guides",
+      "title": "Guides",
+      "description": "Get oriented, understand Early Access, and make a plan for your next session.",
+      "icon": "guides"
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "description": "See how skills connect, and what the latest additions bring to Melvor.",
+      "icon": "skills"
+    },
+    {
+      "id": "combat",
+      "title": "Combat",
+      "description": "Learn the shape of combat, equipment choices, and Mastery Guilds.",
+      "icon": "combat"
+    },
+    {
+      "id": "quests",
+      "title": "Quests",
+      "description": "Follow the story, quest bosses, and the Early Access quest acts.",
+      "icon": "quests"
+    },
+    {
+      "id": "updates",
+      "title": "Updates",
+      "description": "Read dated summaries of official Melvor Idle 2 announcements.",
+      "icon": "updates"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "getting-started",
+      "category": "guides",
+      "title": "Getting started in Melvor Idle 2",
+      "description": "A first-session overview of skills, progression, combat, and where to find reliable information.",
+      "eyebrow": "START HERE",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "start-with-a-skill",
+          "title": "Begin with a skill that interests you",
+          "paragraphs": [
+            "Melvor Idle 2 is a single-player idle RPG built around skills, combat, quests, and long-term progression. Start by choosing an available skill and use the in-game information panels to understand its current action, requirements, and rewards.",
+            "Actions in one skill can support progress in others. Treat the first session as a chance to learn how your character's activities connect rather than trying to optimize every choice immediately."
+          ]
+        },
+        {
+          "id": "set-a-nearby-goal",
+          "title": "Pick a nearby goal",
+          "paragraphs": [
+            "A useful early goal is one you can check against the current interface: advance a skill, gather an item, meet a quest requirement, or prepare for a combat encounter. Use the requirements shown in game as the source of truth for your save."
+          ],
+          "bullets": [
+            "Read the action and item information before committing resources.",
+            "Check what a new skill produces and which other activities may use it.",
+            "Review the combat style and equipment before starting a difficult encounter.",
+            "Use the quest panel to see listed requirements and current objectives."
+          ]
+        },
+        {
+          "id": "offline-play",
+          "title": "Progress can continue while you are away",
+          "paragraphs": [
+            "The official store page describes offline progression at the same speed as active play. When you return, review the offline progress and event information before choosing the next action."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Melvor Idle 2 on Steam",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        },
+        {
+          "title": "Official Melvor Idle 2 website",
+          "url": "https://melvoridle2.runescape.com/"
+        }
+      ],
+      "related": ["skills-overview", "combat-basics", "quests-and-acts"]
+    },
+    {
+      "slug": "how-the-systems-connect",
+      "category": "guides",
+      "title": "How the game systems connect",
+      "description": "A map of the main loop between skilling, items, quests, and combat.",
+      "eyebrow": "GAME SYSTEMS",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": false,
+      "sections": [
+        {
+          "id": "the-progression-loop",
+          "title": "Progress feeds other progress",
+          "paragraphs": [
+            "The official game overview describes skills as connected: actions and their results can benefit other parts of your adventure. Gathering, creating, and training are not isolated tracks; items and levels can help meet later goals.",
+            "Quests add story and objectives to that loop. The official overview says they can introduce unique skilling content and quest bosses, tying preparation and progression to the story."
+          ]
+        },
+        {
+          "id": "systems-at-a-glance",
+          "title": "A quick map of the systems",
+          "table": {
+            "headers": ["System", "What it contributes", "Where to check details"],
+            "rows": [
+              ["Skills", "Actions, levels, and items that support other activities", "Current skill page and action panel"],
+              ["Combat", "Encounters against monsters, dungeons, and bosses", "Combat page, equipment, and encounter details"],
+              ["Quests", "Story, requirements, objectives, and rewards", "Quest panel and official update notes"],
+              ["Offline progress", "Continued progression while away", "Return summary and current action settings"]
+            ]
+          }
+        },
+        {
+          "id": "use-the-current-game",
+          "title": "Check the current build",
+          "paragraphs": [
+            "Melvor Idle 2 is in Early Access, so skills, balance, and available content can change. Older Melvor Idle guides may describe different systems. Confirm requirements and values in the current game and use announcements that name the relevant version."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Melvor Idle 2 website: game features",
+          "url": "https://melvoridle2.runescape.com/"
+        },
+        {
+          "title": "Melvor Idle 2 on Steam",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        }
+      ],
+      "related": ["getting-started", "skills-overview", "quests-and-acts"]
+    },
+    {
+      "slug": "early-access-overview",
+      "category": "guides",
+      "title": "What Early Access means for this guide",
+      "description": "Understand the current release status and how to read information that may change.",
+      "eyebrow": "EARLY ACCESS",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "current-release",
+          "title": "The game entered Early Access on November 17, 2026",
+          "paragraphs": [
+            "Melvor Idle 2: A RuneScape Adventure is available in Steam Early Access. The developer describes Early Access as part of the game's development, with community feedback informing changes and additions.",
+            "The Steam listing says some planned skills, combat content, and quality-of-life features remain to be released. Availability can therefore differ between the current game, older announcements, and the separate demo."
+          ]
+        },
+        {
+          "id": "reading-versioned-information",
+          "title": "Read claims with their version in mind",
+          "paragraphs": [
+            "This wiki dates its article reviews and links to primary sources. A dated patch summary describes what that announcement said at the time; it does not guarantee that the same balance or content remains unchanged in a later build."
+          ],
+          "bullets": [
+            "Use the in-game interface for current requirements, values, and unlock states.",
+            "Check whether a news post is for the demo or the Early Access release.",
+            "Treat developer estimates for the unfinished game as plans, not fixed schedules."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Steam Early Access information",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        },
+        {
+          "title": "Official Early Access launch announcement",
+          "url": "https://news.melvoridle.com/melvor-idle-2-a-runescape-adventure-is-now-available-in-steam-early-access/"
+        }
+      ],
+      "related": ["early-access-launch", "early-access-patch-notes"]
+    },
+    {
+      "slug": "skills-overview",
+      "category": "skills",
+      "title": "Skills and skill progression",
+      "description": "How training, levels, and items create links between activities.",
+      "eyebrow": "SKILLING",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "skills-have-a-purpose",
+          "title": "Skills are designed to work together",
+          "paragraphs": [
+            "The official overview presents skills as a connected progression system: each skill has a purpose, and progress in one can benefit others. Woodcutting, Smithing, Cooking, and Farming are examples named on the official site, not a complete list.",
+            "Use the skill pages and item descriptions in your current game to follow those links. Recipes, unlocks, and requirements can change during Early Access, so check the live interface before planning around an older guide."
+          ]
+        },
+        {
+          "id": "building-a-routine",
+          "title": "Build a simple training routine",
+          "paragraphs": [
+            "A practical routine is to choose a goal, identify the skill or item it needs, train the activity that produces it, and then return to the goal. This is a planning method, not a tested fastest route."
+          ],
+          "bullets": [
+            "Follow the requirements shown by your current quest or activity.",
+            "Check item descriptions and the bank when a skill produces something unfamiliar.",
+            "Use the current action and progress information to decide when to switch tasks."
+          ]
+        },
+        {
+          "id": "level-limits",
+          "title": "Levels and available content",
+          "paragraphs": [
+            "The official Steam listing describes a maximum level of 99. Early Access patch notes also refer to post-level-60 content. These statements describe the launch material and should not be read as a promise that every skill has identical unlocks or pacing."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Melvor Idle 2 website: skills",
+          "url": "https://melvoridle2.runescape.com/"
+        },
+        {
+          "title": "Melvor Idle 2 on Steam",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        },
+        {
+          "title": "Early Access patch notes",
+          "url": "https://news.melvoridle.com/early-access-patch-notes/"
+        }
+      ],
+      "related": ["new-skills", "mastery-guilds", "getting-started"]
+    },
+    {
+      "slug": "new-skills",
+      "category": "skills",
+      "title": "Astrology, Herblore, and Agility in Early Access",
+      "description": "A dated overview of three skills named in the Early Access launch patch notes.",
+      "eyebrow": "EARLY ACCESS CONTENT",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "launch-additions",
+          "title": "Three skills called out in the launch notes",
+          "paragraphs": [
+            "The Early Access patch notes list Astrology, Herblore, and Agility as new skills in that release. This is a dated summary of the November 17, 2026 notes, not a complete or permanent roster for the evolving game."
+          ],
+          "table": {
+            "headers": ["Skill", "What this article confirms"],
+            "rows": [
+              ["Astrology", "Named as a new skill in the Early Access patch notes"],
+              ["Herblore", "Named as a new skill in the Early Access patch notes"],
+              ["Agility", "Named as a new skill in the Early Access patch notes"]
+            ]
+          }
+        },
+        {
+          "id": "check-current-details",
+          "title": "Use the in-game page for mechanics",
+          "paragraphs": [
+            "The announcement identifies the skills but this summary does not infer recipes, unlock paths, training methods, or item rates. Open the relevant skill page in your current build for requirements and available actions."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Early Access patch notes, November 17, 2026",
+          "url": "https://news.melvoridle.com/early-access-patch-notes/"
+        },
+        {
+          "title": "Official Melvor Idle 2 website",
+          "url": "https://melvoridle2.runescape.com/"
+        }
+      ],
+      "related": ["skills-overview", "mastery-guilds", "early-access-patch-notes"]
+    },
+    {
+      "slug": "mastery-guilds",
+      "category": "combat",
+      "title": "Mastery Guilds and ranks",
+      "description": "What official sources say about Melvor Idle 2's reworked mastery system.",
+      "eyebrow": "MASTERY",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "reimagined-mastery",
+          "title": "A reworked mastery system",
+          "paragraphs": [
+            "The official game overview describes Mastery Guilds as a reimagined mastery system for all skills, including Combat. The Early Access patch notes report four new Mastery Guild ranks, with additional tasks and bonuses in that release."
+          ]
+        },
+        {
+          "id": "guild-task-information",
+          "title": "Use the current guild panel",
+          "paragraphs": [
+            "The announcement confirms the system and the launch additions but does not establish a universal priority order for tasks. Review the rank, task conditions, and bonuses displayed in your current game before choosing what to train."
+          ],
+          "bullets": [
+            "Check whether a task tracks a skill, a combat activity, or a specific action.",
+            "Use the in-game progress indicator to confirm that the activity counts.",
+            "Recheck the guild after updates, since tasks and bonuses may be adjusted."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Melvor Idle 2 website: Mastery Guilds",
+          "url": "https://melvoridle2.runescape.com/"
+        },
+        {
+          "title": "Early Access patch notes, November 17, 2026",
+          "url": "https://news.melvoridle.com/early-access-patch-notes/"
+        }
+      ],
+      "related": ["skills-overview", "new-skills", "combat-basics"]
+    },
+    {
+      "slug": "combat-basics",
+      "category": "combat",
+      "title": "Combat basics and preparation",
+      "description": "An introduction to combat styles, encounters, and preparing before a fight.",
+      "eyebrow": "COMBAT",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "combat-styles",
+          "title": "Choose how to approach an encounter",
+          "paragraphs": [
+            "The official store page names Melee, Ranged, and Magic as ways to face monsters. It also highlights dungeons and bosses as major combat challenges. The exact best style depends on the current enemy, your available equipment, and your character's progress."
+          ],
+          "table": {
+            "headers": ["Before you start", "What to review"],
+            "rows": [
+              ["Encounter", "Enemy, dungeon, or boss information currently shown in game"],
+              ["Style", "The combat style and weapon you intend to use"],
+              ["Equipment", "Defence, bonuses, and the selected equipment loadout"],
+              ["Progress", "Relevant skill levels and any stated requirements"]
+            ]
+          }
+        },
+        {
+          "id": "read-the-result",
+          "title": "Use feedback to adjust",
+          "paragraphs": [
+            "Combat outcomes and item information can help explain whether your setup fits the encounter. The Early Access notes describe item-stat tooltips that compare equipment with the current combat loadout. Use the live interface instead of relying on a fixed setup from a different patch."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Melvor Idle 2 website: combat",
+          "url": "https://melvoridle2.runescape.com/"
+        },
+        {
+          "title": "Melvor Idle 2 on Steam",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        },
+        {
+          "title": "Early Access patch notes",
+          "url": "https://news.melvoridle.com/early-access-patch-notes/"
+        }
+      ],
+      "related": ["equipment-and-loadouts", "mastery-guilds", "quests-and-acts"]
+    },
+    {
+      "slug": "equipment-and-loadouts",
+      "category": "combat",
+      "title": "Equipment and combat loadouts",
+      "description": "Use the Early Access equipment comparison and quick-equip features when preparing for combat.",
+      "eyebrow": "GEAR & SETUP",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "compare-item-stats",
+          "title": "Read item stats in context",
+          "paragraphs": [
+            "The Early Access launch notes describe equipment tooltips that show item stats and compare them with an existing Combat loadout. The notes say the TAB key can cycle the loadout used for comparison. This is a feature description for that release; check the current controls and interface in game."
+          ]
+        },
+        {
+          "id": "quick-equip",
+          "title": "Filter quick-equip choices",
+          "paragraphs": [
+            "The same patch expanded the quick-equip menu and added filtering by Combat Style. The selected style can affect which weapons appear in the list. Read the current filter label before equipping an item."
+          ]
+        },
+        {
+          "id": "avoid-fixed-builds",
+          "title": "Treat builds as version-specific",
+          "paragraphs": [
+            "A loadout that works for one character or patch may not suit another. Compare the item's displayed bonuses with the encounter and the rest of your setup rather than treating an external gear list as universally optimal."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Early Access patch notes: item stats and quick-equip",
+          "url": "https://news.melvoridle.com/early-access-patch-notes/"
+        },
+        {
+          "title": "Melvor Idle 2 on Steam",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        }
+      ],
+      "related": ["combat-basics", "mastery-guilds"]
+    },
+    {
+      "slug": "quests-and-acts",
+      "category": "quests",
+      "title": "Quests, acts, and story progression",
+      "description": "How quests guide progression and what the Early Access launch notes say about Act 2.",
+      "eyebrow": "QUESTING",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "story-and-skills",
+          "title": "Quests connect story with gameplay",
+          "paragraphs": [
+            "The official game website describes story-driven quests that uncover Melvor's history. It says quests can include unique skilling content and powerful quest bosses, giving players goals that draw on several parts of the game."
+          ]
+        },
+        {
+          "id": "act-two",
+          "title": "Act 2 is available in the Early Access launch notes",
+          "paragraphs": [
+            "The November 17, 2026 Early Access patch notes state that Act 2 quests are available and use almost all skills in the game. The announcement says this act is longer than Act 1 and is expected to take players to around level 70. This is a broad developer estimate, not an exact route or required character level for every quest."
+          ]
+        },
+        {
+          "id": "quest-requirements",
+          "title": "Check requirements in the quest panel",
+          "paragraphs": [
+            "The launch notes say quests display requirements beneath their synopsis. Use those current requirements and objectives to decide what to train next; this guide does not list a full quest order or reveal story outcomes."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Melvor Idle 2 website: quests",
+          "url": "https://melvoridle2.runescape.com/"
+        },
+        {
+          "title": "Early Access patch notes: Quests",
+          "url": "https://news.melvoridle.com/early-access-patch-notes/"
+        }
+      ],
+      "related": ["getting-started", "skills-overview", "combat-basics"]
+    },
+    {
+      "slug": "offline-progression",
+      "category": "guides",
+      "title": "Offline progression and returning to the game",
+      "description": "What the official store page says about offline progress, and what to review when you return.",
+      "eyebrow": "IDLE PROGRESSION",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "continue-while-away",
+          "title": "Progress continues while you are away",
+          "paragraphs": [
+            "The official Steam listing says offline progression continues at the same speed as active play. When you return, the game can show an offline progress breakdown and other notable events from your session."
+          ]
+        },
+        {
+          "id": "review-the-summary",
+          "title": "Review what happened before choosing the next action",
+          "paragraphs": [
+            "Check the return summary, current skill action, and any event notifications. The Early Access patch notes describe an event log for milestones and offline progression details, alongside a level goal stop condition for skills. Availability and controls should be confirmed in the current build."
+          ],
+          "bullets": [
+            "Confirm which action was active and what it produced.",
+            "Check bank space and newly gained items before starting another long action.",
+            "Set a level goal when you want an action to stop at a chosen skill level, if that option is available in your build."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Melvor Idle 2 on Steam: offline progression",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        },
+        {
+          "title": "Early Access patch notes: event log and level goal",
+          "url": "https://news.melvoridle.com/early-access-patch-notes/"
+        }
+      ],
+      "related": ["getting-started", "skills-overview", "early-access-overview"]
+    },
+    {
+      "slug": "early-access-launch",
+      "category": "updates",
+      "title": "Early Access launch: November 17, 2026",
+      "description": "A source-linked summary of the Steam Early Access launch and the current release status.",
+      "eyebrow": "RELEASE NOTE",
+      "updated": "2026-11-20",
+      "readTime": 3,
+      "featured": false,
+      "sections": [
+        {
+          "id": "launch-date",
+          "title": "The Early Access release is live on Steam",
+          "paragraphs": [
+            "Melvor Idle 2: A RuneScape Adventure launched in Steam Early Access on November 17, 2026. The Steam store page identifies Games by Malcs as the developer and Jagex as the publisher."
+          ]
+        },
+        {
+          "id": "development-status",
+          "title": "The game is still being developed",
+          "paragraphs": [
+            "The Steam Early Access information says the game is unfinished and will continue to receive skills, content, mechanics, and quality-of-life work. The developer describes community feedback as part of development. Schedules and plans may change as work progresses."
+          ]
+        },
+        {
+          "id": "demo-separation",
+          "title": "Early Access notes do not describe the demo",
+          "paragraphs": [
+            "The official launch patch notes explicitly state that they apply to Early Access and are not included in the demo. Keep demo-specific observations separate from the full Early Access game."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Early Access launch announcement",
+          "url": "https://news.melvoridle.com/melvor-idle-2-a-runescape-adventure-is-now-available-in-steam-early-access/"
+        },
+        {
+          "title": "Melvor Idle 2 on Steam: Early Access information",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        },
+        {
+          "title": "Official game website",
+          "url": "https://melvoridle2.runescape.com/"
+        }
+      ],
+      "related": ["early-access-overview", "early-access-patch-notes"]
+    },
+    {
+      "slug": "early-access-patch-notes",
+      "category": "updates",
+      "title": "Early Access patch notes: launch additions",
+      "description": "A concise summary of the new skills, items, enemies, quests, and systems listed in the November 17 launch notes.",
+      "eyebrow": "PATCH SUMMARY / NOV 17, 2026",
+      "updated": "2026-11-20",
+      "readTime": 4,
+      "featured": true,
+      "sections": [
+        {
+          "id": "content-summary",
+          "title": "New content listed by the developer",
+          "paragraphs": [
+            "The Early Access patch notes summarize the launch additions. The figures below belong to that dated announcement and may not represent a later content update."
+          ],
+          "table": {
+            "headers": ["Area", "November 17, 2026 patch notes"],
+            "rows": [
+              ["Skills", "Astrology, Herblore, and Agility"],
+              ["Items and enemies", "1,138 new items and 121 new enemies"],
+              ["Mastery Guilds", "Four new ranks with additional tasks and bonuses"],
+              ["Pets", "25 pets available to collect within skills"],
+              ["Quests", "Act 2 quests are available in Early Access"]
+            ]
+          }
+        },
+        {
+          "id": "interface-changes",
+          "title": "Quality-of-life and interface changes",
+          "paragraphs": [
+            "The notes also describe a skill-level sidebar, item stats in tooltips, quick-equip filtering by Combat Style, quest requirement text, a skip-tutorial option, an event log, and a skill-level stop condition. These are release-note descriptions; consult the current interface for exact behavior."
+          ]
+        },
+        {
+          "id": "scope-and-caveats",
+          "title": "Scope of this summary",
+          "paragraphs": [
+            "These notes are for the Early Access version and are not included in the demo. This article condenses the announcement and does not reproduce its full bug-fix list or claim that the listed features are unchanged in later builds."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Early Access patch notes, November 17, 2026",
+          "url": "https://news.melvoridle.com/early-access-patch-notes/"
+        },
+        {
+          "title": "Steam Early Access page",
+          "url": "https://store.steampowered.com/app/3218350/Melvor_Idle_2/"
+        }
+      ],
+      "related": ["new-skills", "mastery-guilds", "quests-and-acts"]
+    }
+  ]
+}

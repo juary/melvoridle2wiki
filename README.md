@@ -1,38 +1,79 @@
 # Melvor Idle 2 Wiki
 
-An independent, community-oriented starting point for **Melvor Idle 2: A RuneScape Adventure**. This static site brings together an introduction to the game, its main systems, starting advice, and links to further resources in a lightweight, responsive interface.
+An independent, English-language player guide for **Melvor Idle 2: A RuneScape Adventure**. Browse introductory guides, skill and combat references, quest context, and dated Early Access notes.
 
-**Website:** https://juary.github.io/melvoridle2wiki/  
-**More game data and guides:** https://melvoridle2.top/
+**Website:** [https://juary.github.io/melvoridle2wiki/](https://juary.github.io/melvoridle2wiki/)
 
-## Explore
+**Community game database:** [https://melvoridle2.top/](https://melvoridle2.top/)
 
-- **Start here:** an introduction to the game's idle progression and the way its systems connect.
-- **Game systems:** discover skills, combat, quests, and Mastery Guilds.
-- **Guides and resources:** find practical starting points and links to the official game and news.
-- **Search:** quickly filter the available topics directly in the browser.
+## About the project
 
-This is a starting point, not an exhaustive database. Game mechanics can change with updates; consult the game and official announcements for current details.
+Melvor Idle 2 entered Steam Early Access on November 17, 2026. This site organizes public information from the official Steam listing, the official game website, and developer announcements into a browsable static wiki. The game is still being developed, so article review dates and source links are included to make version context clear.
+
+This is an independent fan project, separate from the community-maintained database at melvoridle2.top. The two sites are not official developer properties.
+
+## Site sections
+
+| Section | What it covers |
+| --- | --- |
+| Guides | Getting started, how game systems connect, Early Access context, and offline progress |
+| Skills | Skill progression, launch additions, and Mastery Guilds |
+| Combat | Combat preparation, equipment, and loadouts |
+| Quests | Story progression and Act 2 context |
+| Updates | Source-linked Early Access launch and patch summaries |
+| Search | Browser-side search across articles |
+| Themes and responsive layout | Dark and light themes for desktop and mobile |
 
 ## Run locally
 
-Open `index.html` in a modern browser. The site uses plain HTML, CSS, and JavaScript and does not require a build step or backend. An internet connection is required for external fonts and links.
+You need **Node.js 22 or later**. There are no third-party npm dependencies, so `npm install` is not required.
 
-## Publish
+```sh
+git clone https://github.com/juary/melvoridle2wiki.git
+cd melvoridle2wiki
+npm run build
+npm run dev
+```
 
-The site is designed for GitHub Pages at the repository path `/melvoridle2wiki/`. All local asset references are relative, so the site can be served from that path. To publish updates, push changes to the configured Pages branch.
+Open the local preview URL shown in the terminal. The default port is `4173`; the site uses the `/melvoridle2wiki/` project path locally as well.
 
-## Project files
+The static site is generated into `dist/`. Build-time checks catch invalid categories, duplicate or malformed article slugs, invalid section IDs, and missing related-article links. The generated output includes standalone HTML pages, a search index, a sitemap, and `robots.txt`.
 
-- `index.html` contains the site content and structure.
-- `styles.css` contains the responsive visual design.
-- `app.js` handles interactive navigation and search.
-- `images/hero.jpg` is a locally served game screenshot from the official Steam listing.
+## Project structure
 
-## Sources and attribution
+```text
+melvoridle2wiki/
+├── .github/workflows/deploy.yml  # Build and publish to GitHub Pages
+├── docs/
+│   ├── DEPLOYMENT.md             # Pages setup and troubleshooting
+│   └── SOURCES.md                # Source policy and editorial scope
+├── public/assets/                # Game artwork and favicon
+├── scripts/
+│   ├── build.mjs                 # Static page generator
+│   └── serve.mjs                 # Local preview server
+├── src/
+│   ├── data/
+│   │   ├── content.json          # Categories, articles, and source links
+│   │   └── site.json             # Site identity and interface text
+│   ├── scripts/app.js            # Search, theme, and navigation behavior
+│   └── styles/style.css          # Responsive site styles
+└── package.json
+```
 
-- [Melvor Idle 2 on Steam](https://store.steampowered.com/app/3218350/Melvor_Idle_2/)
-- [Official Melvor news](https://news.melvoridle.com/)
-- [Melvor Idle 2 resources and data](https://melvoridle2.top/)
+## Content maintenance
 
-This is an unofficial fan project and is not affiliated with or endorsed by Games by Malcs or Jagex. Melvor Idle, RuneScape, and associated names and imagery belong to their respective owners.
+1. Edit categories and articles in `src/data/content.json`. Articles contain a unique slug, category, title, description, review date, structured sections, source links, and related article slugs.
+2. Keep site identity and interface text in `src/data/site.json`.
+3. Prefer the official Steam listing, the official Melvor Idle 2 website, and developer announcements. Identify the version and distinguish Early Access information from demo content.
+4. Keep article review dates current only when the material has been checked. A source publication date and a wiki review date describe different events.
+5. Run `npm run build` before submitting content changes. The GitHub Actions workflow builds and publishes the generated site after changes are pushed to `main`.
+
+## Automatic deployment to GitHub Pages
+
+The workflow at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) builds and publishes the site when changes are pushed to `main` or when the workflow is started manually. For first-time setup, choose **Settings → Pages → Build and deployment → Source → GitHub Actions** in the repository.
+
+The Pages project site uses the `/melvoridle2wiki/` path. No custom domain or `CNAME` file is needed. See [the deployment guide](docs/DEPLOYMENT.md) for setup and troubleshooting.
+
+## Copyright and disclaimer
+
+This is an independent fan project and is not affiliated with or endorsed by Games by Malcs or Jagex. Melvor Idle, RuneScape, game names, screenshots, and other third-party materials remain the property of their respective rights holders.

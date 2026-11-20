@@ -1,0 +1,20 @@
+{
+  "name": "melvoridle2wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An independent player guide to Melvor Idle 2: A RuneScape Adventure.",
+  "homepage": "https://juary.github.io/melvoridle2wiki/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juary/melvoridle2wiki.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs"
+  }
+}
